@@ -1,3 +1,13 @@
+:root{
+    --main_blue: #1242E6;
+    --dark_blue: #052699;
+    --opacity_blu: #1243e648;
+    --main_green: #83E612;
+    --main_red: #E64012;
+    --secondary_red: #945341;
+    --opacity_blu_2: #1243e6e5;
+}
+
 .swiper{
     width: 100%;
 }
@@ -5,6 +15,8 @@
 .swiper-slide img{
     display: block;
     width: 100%;
+    height: 80vh;
+    object-fit: cover;
 }
 
 .swiper-slide{
@@ -13,6 +25,43 @@
     width: 350px;
 }
 
-h2{
+h1{
+    color: var(--dark_blue);
+}
+
+h2, h1{
     text-align: center;
 }
+
+a{
+    text-decoration: none;
+    color: unset;
+}
+
+body{
+    font-family: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+.category{
+    color: var(--main_green);
+}
+
+.topbar {
+    height: 50px;
+    box-shadow: 0 2px 1px;
+  }
+  
+  .topbar-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .logo img{
+    height: 40px;
+  }
+  
